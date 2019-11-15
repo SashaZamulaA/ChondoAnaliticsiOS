@@ -11,7 +11,6 @@ import FirebaseAuth
 import Firebase
 
 
-
 class SingUpViewController: UIViewController {
 
     @IBOutlet weak var firstNameTextField: UITextField!

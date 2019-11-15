@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02389D2862E6C2E56D9D5141 /* Pods_ChondoAnalitics2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B780FE5D7339B557C37365FC /* Pods_ChondoAnalitics2.framework */; };
+		545084342372CD30002E240C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545084332372CD30002E240C /* GoogleService-Info.plist */; };
+		54AC02F62372C43400E56D4A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC02F52372C43400E56D4A /* Utilities.swift */; };
+		54C2A330237BEEE600717E9B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2A32F237BEEE600717E9B /* Constants.swift */; };
+		54FA32C92371D90A00F7F4EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32C82371D90A00F7F4EF /* AppDelegate.swift */; };
+		54FA32CB2371D90A00F7F4EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32CA2371D90A00F7F4EF /* SceneDelegate.swift */; };
+		54FA32CD2371D90A00F7F4EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32CC2371D90A00F7F4EF /* ViewController.swift */; };
+		54FA32D02371D90A00F7F4EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FA32CE2371D90A00F7F4EF /* Main.storyboard */; };
+		54FA32D32371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32D12371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld */; };
+		54FA32D52371D92200F7F4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FA32D42371D92200F7F4EF /* Assets.xcassets */; };
+		54FA32D82371D92200F7F4EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FA32D62371D92200F7F4EF /* LaunchScreen.storyboard */; };
+		54FA32E02372B8F700F7F4EF /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32DF2372B8F600F7F4EF /* SingUpViewController.swift */; };
+		54FA32E22372B91C00F7F4EF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32E12372B91C00F7F4EF /* LoginViewController.swift */; };
+		54FA32E42372B92F00F7F4EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FA32E32372B92F00F7F4EF /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1724E7B869F3E0A8E515FD15 /* Pods-ChondoAnalitics2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChondoAnalitics2.release.xcconfig"; path = "Target Support Files/Pods-ChondoAnalitics2/Pods-ChondoAnalitics2.release.xcconfig"; sourceTree = "<group>"; };
+		545084332372CD30002E240C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		54AC02F52372C43400E56D4A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		54C2A32F237BEEE600717E9B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		54FA32C52371D90A00F7F4EF /* ChondoAnalitics2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChondoAnalitics2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FA32C82371D90A00F7F4EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54FA32CA2371D90A00F7F4EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54FA32CC2371D90A00F7F4EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54FA32CF2371D90A00F7F4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54FA32D22371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChondoAnalitics2.xcdatamodel; sourceTree = "<group>"; };
+		54FA32D42371D92200F7F4EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54FA32D72371D92200F7F4EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54FA32D92371D92200F7F4EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FA32DF2372B8F600F7F4EF /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		54FA32E12372B91C00F7F4EF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		54FA32E32372B92F00F7F4EF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5EF55F336A1B174CADC360F0 /* Pods-ChondoAnalitics2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChondoAnalitics2.debug.xcconfig"; path = "Target Support Files/Pods-ChondoAnalitics2/Pods-ChondoAnalitics2.debug.xcconfig"; sourceTree = "<group>"; };
+		B780FE5D7339B557C37365FC /* Pods_ChondoAnalitics2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChondoAnalitics2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54FA32C22371D90A00F7F4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02389D2862E6C2E56D9D5141 /* Pods_ChondoAnalitics2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FD879B39F4678315279625 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B780FE5D7339B557C37365FC /* Pods_ChondoAnalitics2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B52AF6B576C98A57B2BF2F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EF55F336A1B174CADC360F0 /* Pods-ChondoAnalitics2.debug.xcconfig */,
+				1724E7B869F3E0A8E515FD15 /* Pods-ChondoAnalitics2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		54AC02F72372C47A00E56D4A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				54AC02F52372C43400E56D4A /* Utilities.swift */,
+				54C2A32F237BEEE600717E9B /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		54FA32BC2371D90A00F7F4EF = {
+			isa = PBXGroup;
+			children = (
+				54FA32C72371D90A00F7F4EF /* ChondoAnalitics2 */,
+				54FA32C62371D90A00F7F4EF /* Products */,
+				4B52AF6B576C98A57B2BF2F6 /* Pods */,
+				40FD879B39F4678315279625 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54FA32C62371D90A00F7F4EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54FA32C52371D90A00F7F4EF /* ChondoAnalitics2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54FA32C72371D90A00F7F4EF /* ChondoAnalitics2 */ = {
+			isa = PBXGroup;
+			children = (
+				54AC02F72372C47A00E56D4A /* Helpers */,
+				54FA32E52372B93B00F7F4EF /* View Controller */,
+				54FA32C82371D90A00F7F4EF /* AppDelegate.swift */,
+				54FA32CA2371D90A00F7F4EF /* SceneDelegate.swift */,
+				54FA32CE2371D90A00F7F4EF /* Main.storyboard */,
+				54FA32D42371D92200F7F4EF /* Assets.xcassets */,
+				54FA32D62371D92200F7F4EF /* LaunchScreen.storyboard */,
+				54FA32D92371D92200F7F4EF /* Info.plist */,
+				545084332372CD30002E240C /* GoogleService-Info.plist */,
+				54FA32D12371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld */,
+			);
+			path = ChondoAnalitics2;
+			sourceTree = "<group>";
+		};
+		54FA32E52372B93B00F7F4EF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54FA32DF2372B8F600F7F4EF /* SingUpViewController.swift */,
+				54FA32E12372B91C00F7F4EF /* LoginViewController.swift */,
+				54FA32E32372B92F00F7F4EF /* HomeViewController.swift */,
+				54FA32CC2371D90A00F7F4EF /* ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54FA32C42371D90A00F7F4EF /* ChondoAnalitics2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FA32DC2371D92200F7F4EF /* Build configuration list for PBXNativeTarget "ChondoAnalitics2" */;
+			buildPhases = (
+				994DB3D4EC1CAD236893B0AC /* [CP] Check Pods Manifest.lock */,
+				54FA32C12371D90A00F7F4EF /* Sources */,
+				54FA32C22371D90A00F7F4EF /* Frameworks */,
+				54FA32C32371D90A00F7F4EF /* Resources */,
+				F217011386C9B5139A836F30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChondoAnalitics2;
+			productName = ChondoAnalitics2;
+			productReference = 54FA32C52371D90A00F7F4EF /* ChondoAnalitics2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54FA32BD2371D90A00F7F4EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Alex Ltd.";
+				TargetAttributes = {
+					54FA32C42371D90A00F7F4EF = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 54FA32C02371D90A00F7F4EF /* Build configuration list for PBXProject "ChondoAnalitics2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54FA32BC2371D90A00F7F4EF;
+			productRefGroup = 54FA32C62371D90A00F7F4EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54FA32C42371D90A00F7F4EF /* ChondoAnalitics2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54FA32C32371D90A00F7F4EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FA32D82371D92200F7F4EF /* LaunchScreen.storyboard in Resources */,
+				545084342372CD30002E240C /* GoogleService-Info.plist in Resources */,
+				54FA32D52371D92200F7F4EF /* Assets.xcassets in Resources */,
+				54FA32D02371D90A00F7F4EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		994DB3D4EC1CAD236893B0AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChondoAnalitics2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F217011386C9B5139A836F30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChondoAnalitics2/Pods-ChondoAnalitics2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChondoAnalitics2/Pods-ChondoAnalitics2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChondoAnalitics2/Pods-ChondoAnalitics2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54FA32C12371D90A00F7F4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FA32E22372B91C00F7F4EF /* LoginViewController.swift in Sources */,
+				54FA32CD2371D90A00F7F4EF /* ViewController.swift in Sources */,
+				54FA32C92371D90A00F7F4EF /* AppDelegate.swift in Sources */,
+				54FA32E02372B8F700F7F4EF /* SingUpViewController.swift in Sources */,
+				54FA32D32371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld in Sources */,
+				54FA32E42372B92F00F7F4EF /* HomeViewController.swift in Sources */,
+				54AC02F62372C43400E56D4A /* Utilities.swift in Sources */,
+				54FA32CB2371D90A00F7F4EF /* SceneDelegate.swift in Sources */,
+				54C2A330237BEEE600717E9B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54FA32CE2371D90A00F7F4EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FA32CF2371D90A00F7F4EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54FA32D62371D92200F7F4EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FA32D72371D92200F7F4EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54FA32DA2371D92200F7F4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54FA32DB2371D92200F7F4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54FA32DD2371D92200F7F4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF55F336A1B174CADC360F0 /* Pods-ChondoAnalitics2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChondoAnalitics2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksandr-Corp.ChondoAnalitics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54FA32DE2371D92200F7F4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1724E7B869F3E0A8E515FD15 /* Pods-ChondoAnalitics2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChondoAnalitics2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Aleksandr-Corp.ChondoAnalitics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54FA32C02371D90A00F7F4EF /* Build configuration list for PBXProject "ChondoAnalitics2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FA32DA2371D92200F7F4EF /* Debug */,
+				54FA32DB2371D92200F7F4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FA32DC2371D92200F7F4EF /* Build configuration list for PBXNativeTarget "ChondoAnalitics2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FA32DD2371D92200F7F4EF /* Debug */,
+				54FA32DE2371D92200F7F4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54FA32D12371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54FA32D22371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodel */,
+			);
+			currentVersion = 54FA32D22371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodel */;
+			path = ChondoAnalitics2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54FA32BD2371D90A00F7F4EF /* Project object */;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1049223896107-r3p5v5sjnfqqd9ng9gcuhglepvonkqhq.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1049223896107-r3p5v5sjnfqqd9ng9gcuhglepvonkqhq</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAst_9KJEOg4IywB8wCMvtJkPKy73q7W1o</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1049223896107</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Aleksandr-Corp.ChondoAnalitics</string>
+	<key>PROJECT_ID</key>
+	<string>chondoanalytics</string>
+	<key>STORAGE_BUCKET</key>
+	<string>chondoanalytics.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1049223896107:ios:ff8be1b5630847b2a45e6e</string>
+	<key>DATABASE_URL</key>
+	<string>https://chondoanalytics.firebaseio.com</string>
+</dict>
+</plist>

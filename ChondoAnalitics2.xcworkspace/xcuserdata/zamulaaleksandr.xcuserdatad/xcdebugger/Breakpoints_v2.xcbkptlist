@@ -241,5 +241,239 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D661748-E5A1-4109-AC5C-9B4DE91B5892"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChondoAnalitics2/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB22B563-4743-4CF1-AD3B-415D528BD7FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChondoAnalitics2/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A21BB4CF-86BA-4A48-9B1F-58B32C5795A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChondoAnalitics2/View Controller/ContainerController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "A21BB4CF-86BA-4A48-9B1F-58B32C5795A3 - 2d88d512a642b161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.ContainerController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ChondoAnalitics2.ContainerController"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/ContainerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A21BB4CF-86BA-4A48-9B1F-58B32C5795A3 - 11e3df76a86e18c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.ContainerController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ChondoAnalitics2.ContainerController"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/ContainerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  uuid = "A21BB4CF-86BA-4A48-9B1F-58B32C5795A3 - 22d950b8e85b0592"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.ContainerController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ChondoAnalitics2.ContainerController&gt;"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/ContainerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "A21BB4CF-86BA-4A48-9B1F-58B32C5795A3 - af2816e62aca319b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.ContainerController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ChondoAnalitics2.ContainerController&gt;"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/ContainerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "A21BB4CF-86BA-4A48-9B1F-58B32C5795A3 - f705cb407813f42a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.ContainerController.__deallocating_deinit"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/ContainerController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7355C7E7-8385-44B3-A199-6E3E50809C2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChondoAnalitics2/View Controller/HomeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F920E3C-0F40-49E4-A2CD-70A375FA73E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChondoAnalitics2/View Controller/HomeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "HomeController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2F920E3C-0F40-49E4-A2CD-70A375FA73E2 - e1eac9cd9784c593"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.HomeController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ChondoAnalitics2.HomeController"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2F920E3C-0F40-49E4-A2CD-70A375FA73E2 - 61c16b1cca93e608"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.HomeController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; ChondoAnalitics2.HomeController"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "359">
+               </Location>
+               <Location
+                  uuid = "2F920E3C-0F40-49E4-A2CD-70A375FA73E2 - d8d652da286c6c74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.HomeController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ChondoAnalitics2.HomeController&gt;"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "2F920E3C-0F40-49E4-A2CD-70A375FA73E2 - e604115c2e368b03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.HomeController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ChondoAnalitics2.HomeController&gt;"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "2F920E3C-0F40-49E4-A2CD-70A375FA73E2 - 39fed4da413b48da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ChondoAnalitics2.HomeController.__deallocating_deinit"
+                  moduleName = "ChondoAnalitics2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zamulaaleksandr/Documents/ChondoAnalitics2/ChondoAnalitics2/View%20Controller/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

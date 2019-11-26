@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		02389D2862E6C2E56D9D5141 /* Pods_ChondoAnalitics2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B780FE5D7339B557C37365FC /* Pods_ChondoAnalitics2.framework */; };
-		543E852D237EB45400EBA643 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543E852C237EB45400EBA643 /* File.swift */; };
+		543369FC238C0519002DA8B6 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543369FB238C0519002DA8B6 /* MenuViewController.swift */; };
+		543369FE238D7E7D002DA8B6 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543369FD238D7E7D002DA8B6 /* SlideInTransition.swift */; };
 		545084342372CD30002E240C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 545084332372CD30002E240C /* GoogleService-Info.plist */; };
 		54AC02F62372C43400E56D4A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54AC02F52372C43400E56D4A /* Utilities.swift */; };
 		54C2A330237BEEE600717E9B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C2A32F237BEEE600717E9B /* Constants.swift */; };
@@ -26,7 +27,8 @@
 
 /* Begin PBXFileReference section */
 		1724E7B869F3E0A8E515FD15 /* Pods-ChondoAnalitics2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChondoAnalitics2.release.xcconfig"; path = "Target Support Files/Pods-ChondoAnalitics2/Pods-ChondoAnalitics2.release.xcconfig"; sourceTree = "<group>"; };
-		543E852C237EB45400EBA643 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		543369FB238C0519002DA8B6 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		543369FD238D7E7D002DA8B6 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		545084332372CD30002E240C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		54AC02F52372C43400E56D4A /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		54C2A32F237BEEE600717E9B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				54FA32D92371D92200F7F4EF /* Info.plist */,
 				545084332372CD30002E240C /* GoogleService-Info.plist */,
 				54FA32D12371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld */,
+				543369FD238D7E7D002DA8B6 /* SlideInTransition.swift */,
 			);
 			path = ChondoAnalitics2;
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 				54FA32E12372B91C00F7F4EF /* LoginViewController.swift */,
 				54FA32E32372B92F00F7F4EF /* HomeViewController.swift */,
 				54FA32CC2371D90A00F7F4EF /* ViewController.swift */,
-				543E852C237EB45400EBA643 /* File.swift */,
+				543369FB238C0519002DA8B6 /* MenuViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -248,11 +251,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FA32E22372B91C00F7F4EF /* LoginViewController.swift in Sources */,
+				543369FC238C0519002DA8B6 /* MenuViewController.swift in Sources */,
 				54FA32CD2371D90A00F7F4EF /* ViewController.swift in Sources */,
 				54FA32C92371D90A00F7F4EF /* AppDelegate.swift in Sources */,
 				54FA32E02372B8F700F7F4EF /* SingUpViewController.swift in Sources */,
 				54FA32D32371D90A00F7F4EF /* ChondoAnalitics2.xcdatamodeld in Sources */,
-				543E852D237EB45400EBA643 /* File.swift in Sources */,
+				543369FE238D7E7D002DA8B6 /* SlideInTransition.swift in Sources */,
 				54FA32E42372B92F00F7F4EF /* HomeViewController.swift in Sources */,
 				54AC02F62372C43400E56D4A /* Utilities.swift in Sources */,
 				54FA32CB2371D90A00F7F4EF /* SceneDelegate.swift in Sources */,
